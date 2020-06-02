@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* Global Styles */
+a:hover {
+	color: rgba(255,255,255,1.00);
+}
+/*header*/
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+/* Logo placeholder*/
+#logoPlaceholder {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(190,190,190,1.00);
+}
+#logoPlaceholder > #logo {
+	height: 70px;
+    width: 70px;
+    float: left;
+	background-image: url("../images/logo.png");
+}
+#logoPlaceholder > p {
+	text-align: center;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+/* div for Links in header */
+#headerLinks {
+	float: left;
+    width: calc( 100% - 209.19px );
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 10px;
+    background-color: rgba(255,255,255,1.00);
+}
+/* Links in header */
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(146,146,146,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(10,10,10,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+/*LOGIN HOVERING*/
+.loginMenu {
+	display: none;
+    max-height: 136px;
+    max-width: 223px;
+    position: absolute;
+    margin-left: 27%;
+    background-color: antiquewhite;
+	padding-top: 3px;
+}
+.loginMenu > .input {
+    padding-bottom: 2.3%;
+}
+.loginMenu > #response {
+	color: red;
+}
+.upArrow:after {
+	content: '▼';
+}
+.downArrow:after {
+	content: '▲';
+}
+#user #pass {
+    width: 52%;
+    padding-right: 12px;
+}
+#loginBtn {
+	width: 100%;
+}
+#registrationMenu {
+	align-content: center;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    background: rgba(100,255,125,0.7);
+}
+#registrationMenu > form{
+	width: 60%;
+    margin: 0px auto;
+	padding-top: 15%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	font-size: 16pt;
+}
+.input {
+    padding-bottom: 2.3%;
+	color: black;
+}
+.input > label {
+    width: 180px;
+    clear: left;
+    text-align: right;
+    padding-right: 10px;
+    color: black;
+}
+.input > input[type="text"], input[type="password"] {
+	width: 40%;
+}
+.input > button {
+    width: 44%;
+	font-family: LovelySofiaBG;
+	font-size: 16pt;
+}
+.close-container{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 80%;
+	cursor: pointer;
+}
+
+.leftright{
+  height: 4px;
+  width: 80%;
+  position: absolute;
+  margin-top: 24px;
+  background-color: red;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+
+.rightleft{
+  height: 4px;
+  width: 80%;
+  position: absolute;
+  margin-top: 24px;
+  background-color: red;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+/* Offer text banner*/
+#offer {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	background-color: rgba(246,246,246,1.00);
+	color: rgba(146,146,146,1.00);
+	padding-left: 115px;
+	padding-top: 57px;
+	padding-bottom: 57px;
+}
+/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}
+
+#content img {
+	width: 100%;
+}
+
+/* Whole page content */
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+/* footer */
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: rgba(208,207,207,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+/*Each footer content */
+#mainWrapper footer div {
+	width: 44%;
+    float: left;
+    padding-left: 4%;
+    padding-right: 2%;
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+}
+
+/* Media query for tablets */
+@media screen and (max-width:750px) {
+	/*The sidebar and maincontent of page */
+	#content {
+		position: relative;
+		top: -22px;
+		width: 100%;
+		overflow: hidden;
+	}
+	.loginMenu {
+		display: none;
+		max-height: 100px;
+		max-width: 223px;
+		position: absolute;
+		margin-left: 8%;
+		background-color: antiquewhite;
+		padding-top: 3px;
+	}
+	/* offer banners content */
+	#mainWrapper #offer p {
+		font-size: small;
+	}
+	/* Container for links in footer */
+	#mainWrapper footer .footerlinks {
+		float: none;
+		width: 100%;
+		position: relative;
+		top: 17px;
+		clear: both;
+		text-align: center;
+		left: 0%;
+		padding-bottom: 19px;
+	}
+	/* Container for each footer divisions */
+	#mainWrapper footer div {
+		width: 44%;
+		float: left;
+		padding-left: 4%;
+		padding-right: 2%;
+		color: rgba(255,255,255,1.00);
+		text-align: center;
+	}
+	/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}
+
+#content img {
+	width: 100%;
+}
+	/* Footer region */
+	#mainWrapper footer {
+		padding-left: 16px;
+		overflow: hidden;
+	}
+	/* Links in header */
+	header #headerLinks a {
+		padding-left: 0px;
+		padding-right: 30px;
+	}
+	/* Offer- Text banner */
+	#mainWrapper #offer {
+		padding-left: 22%;
+	}
+}
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+	/*Container for links in header */
+	#mainWrapper header #headerLinks {
+		width: 100%;
+		text-align: center;
+		background-color: rgba(190,190,190,1.00);
+		padding-bottom: 21px;
+	}
+	.loginMenu {
+		display: none;
+		max-height: 100px;
+		max-width: 223px;
+		position: absolute;
+		margin-left: -12%;
+		background-color: antiquewhite;
+		padding-top: 3px;
+	}
+	/* Logo placeholder*/
+	#mainWrapper header #logo {
+		width: 100%;
+		text-align: center;
+	}
+	/* Links in header */
+	header #headerLinks a {
+		text-align: center;
+		padding-right: 15px;
+		padding-left: 0px;
+	}
+	/*Offer - Text Banner */
+	#mainWrapper #offer {
+		padding-left: 0px;
+		text-align: center;
+	}
+	#mainWrapper footer div {
+		width: 44%;
+		float: left;
+		padding-left: 4%;
+		padding-right: 2%;
+		color: rgba(255,255,255,1.00);
+		text-align: center;
+	}
+}

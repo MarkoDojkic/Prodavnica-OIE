@@ -1,0 +1,400 @@
+/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}@charset "utf-8";
+/* Global Styles */
+a:hover {
+	color: rgba(255,255,255,1.00);
+}
+/*header*/
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+/* Logo placeholder*/
+#logoPlaceholder {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(190,190,190,1.00);
+}
+#logoPlaceholder > #logo {
+	height: 70px;
+    width: 70px;
+    float: left;
+	background-image: url("../images/logo.png");
+}
+#logoPlaceholder > p {
+	text-align: center;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+/* div for Links in header */
+#headerLinks {
+	float: left;
+    width: calc( 100% - 209.19px );
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 10px;
+    background-color: rgba(255,255,255,1.00);
+}
+/* Links in header */
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(146,146,146,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(10,10,10,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+#content .sidebar {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	float: left;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: rgba(246,246,246,1.00);
+	padding-top: 36px;
+}
+/* main content of the site */
+#content .mainContent {
+	float: left;
+	width: 70%;
+	text-align: center;
+	padding-left: 4%;
+}
+/*menubar's properties for menus in sidebar */
+#content .sidebar #menubar {
+	text-align: left;
+	color: rgba(146,146,146,1.00);
+	position: relative;
+	left: 0%;
+}
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+/*menu elements */
+.menu ul li {
+	list-style-type: none;
+	font-size: x-large;
+	position: relative;
+	left: -35px;
+	padding-top: 12px;
+}
+/* footer */
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: rgba(208,207,207,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+/*Each footer content */
+#mainWrapper footer div {
+	width: 44%;
+    float: left;
+    padding-left: 4%;
+    padding-right: 2%;
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+}
+/* Links in footer */
+footer div a {
+	color: rgba(146,146,146,1.00);
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+/*Links in sidebar */
+.sidebar #menubar .menu ul li a {
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}
+.sidebar #menubar .menu ul li a:hover {
+	color: rgba(107,97,97,1.00);
+	text-decoration: none;
+}
+/* Menu headings in sidebar */
+#menubar .menu h2 {
+	font-size: 14px;
+}
+/*Links under menus in sidebar */
+#menubar .menu ul li a {
+	font-size: 14px;
+}
+/* Menus in sidebar */
+.sidebar #menubar .menu {
+	margin-bottom: 29px;
+}
+/* Container for links in footer */
+footer .footerlinks {
+	margin-top: -15px;
+}
+/* TABLE */
+
+table.t_orders, table.t_products, table.t_data {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table.t_orders td, table.t_products td,
+table.t_orders th, table.t_products th,
+table.t_data th, table.t_data th{
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+  text-align: center;
+}
+
+table.t_orders tbody td, table.t_products tbody td ,table.t_data tbody td {
+  font-size: 13px;
+}
+
+table.t_orders tr:nth-child(even), table.t_products tr:nth-child(even), table.t_data tr:nth-child(even) {
+  background: #D0E4F5;
+}
+
+table.t_orders thead, table.t_products thead, table.t_data thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+
+table.t_orders thead th, table.t_products thead th, table.t_data thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+
+table.t_orders thead th:first-child, table.t_products thead th:first-child,  table.t_data thead th:first-child {
+  border-left: none;
+}
+
+table.t_data{
+	border: 1px solid #1C6EA4;
+  	background-color: #EEEEEE;
+  	width: 38%;
+  	text-align: left;
+  	border-collapse: collapse;
+	margin: 0px auto;	
+}
+
+table.t_data td:nth-child(odd){
+	border: 1px solid #AAAAAA;
+  	padding: 3px 2px;
+  	text-align: right;
+}
+
+table.t_data tbody td{
+	font-size: 13px;
+	width: 100%;
+}
+
+.getProducts {
+	margin-left: 2%;
+	height: 16px;
+	background-image: url("../images/listProducts_btn.png");
+	background-size: contain;
+}
+.takeOrder {
+	margin-left: 2%;
+	height: 16px;
+	background-image: url("../images/accept.png");
+	background-size: contain;
+}
+
+/* Media query for tablets */
+@media screen and (max-width:700px) {
+	/* search field in sidebar */
+	#content .sidebar #search {
+		display: none;
+	}
+	/* sidebar */
+	#content .sidebar {
+		float: none;
+		width: 100%;
+		height: auto;
+		overflow: auto;
+		padding-left: 12%;
+		padding-top: 0px;
+	}
+	/* horizontal separators in sidebar */
+	#content .sidebar hr {
+		display: none;
+	}
+	/*The sidebar and maincontent of page */
+	#content {
+		position: relative;
+		top: -22px;
+		width: 100%;
+		overflow: hidden;
+	}
+	/*menu headings in sidebar */
+	#menubar .menu h2 {
+		display: inline;
+		font-size: medium;
+		padding-right: 6%;
+	}
+	/* Unordered List of links */
+	#menubar .menu ul {
+		display: inline;
+	}
+	/*list elements */
+	#menubar .menu ul li {
+		display: inline;
+		font-size: medium;
+		padding-left: 0%;
+		padding-right: 3%;
+	}
+	/*The link to be hidden in tablet view */
+	.sidebar #menubar .menu ul .notimp {
+		display: none;
+	}
+	/* menus in sidebar */
+	.sidebar #menubar .menu {
+		width: 100%;
+		text-align: center;
+		position: relative;
+		top: 16px;
+	}
+	/*menubar in sidebar */
+	#content .sidebar #menubar {
+		position: relative;
+		left: -7%;
+		overflow: hidden;
+		width: 95%;
+		padding-top: 0px;
+	}
+	/* offer banners content */
+	#mainWrapper #offer p {
+		font-size: small;
+	}
+	/* main content region of page */
+	#mainWrapper #content .mainContent {
+		overflow: hidden;
+		width: 95%;
+		margin-top: 40px;
+	}
+	#mainWrapper footer div {
+		width: 44%;
+		float: left;
+		padding-left: 4%;
+		padding-right: 2%;
+		color: rgba(255,255,255,1.00);
+		text-align: center;
+	}
+	/* Footer region */
+	#mainWrapper footer {
+		padding-left: 16px;
+		overflow: hidden;
+	}
+	/* Links in header */
+	header #headerLinks a {
+		padding-left: 0px;
+		padding-right: 30px;
+	}
+	/* Paragraphs in footer */
+	footer .footerlinks p {
+		display: inline;
+	}
+}
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+	/*Container for links in header */
+	#mainWrapper header #headerLinks {
+		width: 100%;
+		text-align: center;
+		background-color: rgba(190,190,190,1.00);
+		padding-bottom: 21px;
+	}
+	/* Logo placeholder*/
+	#mainWrapper header #logo {
+		width: 100%;
+		text-align: center;
+	}
+	/* Links in header */
+	header #headerLinks a {
+		text-align: center;
+		padding-right: 15px;
+		padding-left: 0px;
+	}
+	/* Menubar in sidebar */
+	#content .sidebar #menubar {
+		position: relative;
+		left: -8%;
+		text-align: center;
+	}
+	/*Menu headings in sidebar */
+	#menubar .menu h2 {
+		width: 100%;
+		display: block;
+	}
+	#mainWrapper footer div {
+		width: 44%;
+		float: left;
+		padding-left: 4%;
+		padding-right: 2%;
+		color: rgba(255,255,255,1.00);
+		text-align: center;
+	}
+	/* Unordered list for menu elements */
+	.menu ul {
+		position: relative;
+		padding-left: 24%;
+	}
+	/* Main content which excludes the sidebar */
+	#mainwrapper #content .mainContent {
+		margin-top: -81px;
+		text-align: center;
+		width: 100%;
+		padding-left: 0px;
+	}
+}

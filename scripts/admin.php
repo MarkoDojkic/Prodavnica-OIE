@@ -175,7 +175,7 @@
 	}
 
 	function uploadImage(){
-		move_uploaded_file($_FILES["file"]["tmp_name"],"/Users/markodojkic/Documents/markodojkic.rs/drugiKolokvijum/images/products/". $_POST["imageName"] . ".png");
+		move_uploaded_file($_FILES["file"]["tmp_name"],"/images/products/". $_POST["imageName"] . ".png");
 	}
 
 	function logout($save){
